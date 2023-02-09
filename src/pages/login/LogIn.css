@@ -1,0 +1,53 @@
+.logIn{
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background:linear-gradient(rgba(255,255,255,0.5),
+   rgba(255,255,255,0.5)), url("https://media.istockphoto.com/id/1303189272/es/foto/los-novios-usan-el-dedo-me%C3%B1ique-juntos-encantadora-pareja-toma-de-la-mano-con-fondo-de-puesta.jpg?s=612x612&w=0&k=20&c=e6iR2KzjvZhSitWEOJIdRKtvYPMZlkspU7r2Uxp94k4=") ;
+   background-size: cover;
+   background-repeat: no-repeat;
+    align-items: center;
+    background-position: center;
+}
+
+.logInTitle{
+    font-size: 50px;
+}
+.logInForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.logInForm > label{
+    margin:10px 0 ;
+}
+.logInForm input:focus{
+    outline-color:cornflowerblue ;
+}
+.logInInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+.logInButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.logInRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color:white ;
+    border-radius: 10px;
+}
